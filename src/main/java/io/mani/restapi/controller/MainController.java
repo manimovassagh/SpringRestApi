@@ -16,9 +16,11 @@ public class MainController {
 
     @RequestMapping("/topics")
     public List<Topic> TopicController() {
-           return topicService.getAllTopics();
+        return topicService.getAllTopics();
     }
 
-
+    public Topic getTopic(String id) {
+        return topicService.getTopic(id);
+    }
 
 }
