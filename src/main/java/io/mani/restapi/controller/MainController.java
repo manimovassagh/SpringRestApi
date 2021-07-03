@@ -16,7 +16,7 @@ public class MainController {
 
     @RequestMapping("/topics")
     public List<Topic> TopicController() {
-           return
+           return topicService.getAllTopics();
     }
 
     @RequestMapping("/about")
