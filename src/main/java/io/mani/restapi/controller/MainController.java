@@ -19,21 +19,6 @@ public class MainController {
            return topicService.getAllTopics();
     }
 
-    @RequestMapping("/about")
-    public String AboutPage() {
-        return "This is About page mani !!!";
-    }
-
-    @RequestMapping("/contact")
-    public String ContactUsPage() {
-        return "This is Just for contacting us *******";
-    }
-
-    @RequestMapping("/")
-    public String NoAddress() {
-        return "This is a default Address";
-    }
-
 
 
 }
