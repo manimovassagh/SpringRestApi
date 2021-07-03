@@ -1,4 +1,4 @@
-package io.mani.restapi.home;
+package io.mani.restapi.controller;
 
 public class Topic {
 
