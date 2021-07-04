@@ -1,4 +1,4 @@
-package io.mani.restapi.controller;
+package io.mani.restapi.modell;
 
 public class Topic {
 

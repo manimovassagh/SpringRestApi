@@ -1,5 +1,6 @@
 package io.mani.restapi.controller;
 
+import io.mani.restapi.modell.Topic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

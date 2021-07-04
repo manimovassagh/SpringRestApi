@@ -1,5 +1,6 @@
 package io.mani.restapi.controller;
 
+import io.mani.restapi.modell.Topic;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
