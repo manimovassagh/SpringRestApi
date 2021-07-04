@@ -10,7 +10,6 @@ public class Topic {
 
     }
 
-
     public Topic(String id, String name, String description) {
         this.id = id;
         this.name = name;
