@@ -11,8 +11,8 @@
 	<groupId>io.mani</groupId>
 	<artifactId>restapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>restapi</name>
-	<description>restapi project for serving courses</description>
+	<name>restApi</name>
+	<description>restApi project for serving courses</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
