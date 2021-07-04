@@ -17,9 +17,6 @@ public class MainController {
         return topicService.getAllTopics();
     }
 
-    @RequestMapping("/")
-    public String HomePage() {
-        return "This ia s Home Page ";}
 
 
     @RequestMapping("/topics/{id}")
@@ -31,6 +28,11 @@ public class MainController {
     @RequestMapping(method = RequestMethod.POST,value = "/topics")
     public void addTopic(@RequestBody Topic topic){
         topicService.addTopics(topic);
+    }
+
+    @RequestMapping(method = RequestMethod.PUT,value = "/topics/{id}")
+    public void updateTopic(@RequestBody Topic topic,@PathVariable String id){
+        topicService.updateTopics(topic);
     }
 
 }

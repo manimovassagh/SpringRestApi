@@ -1,7 +1,6 @@
 package io.mani.restapi.controller;
 
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -30,5 +29,15 @@ public class TopicService {
 
     public void addTopics(Topic topic) {
         topics.add(topic);
+    }
+
+    public void updateTopics(String id , Topic topic) {
+        for (int i =0; i<topics.size();i++){
+            Topic t = topics.get(i);
+            if(t.getId().equals(id)){
+                topics.set(i, topic);
+                return;
+            }
+        }
     }
 }
